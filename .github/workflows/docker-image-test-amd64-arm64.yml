@@ -21,6 +21,7 @@ jobs:
       image: docker.io/developmententity/claude-cli:initial
       options:
         -v /dev:/dev
+        -u root
 
     steps:
       - name: 'Docker image test'
