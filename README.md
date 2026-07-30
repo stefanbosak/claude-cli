@@ -167,6 +167,7 @@ This repository provides a fully automated preparation of <span style="color: #0
 
 - [Claude best practice](https://github.com/shanraisshan/claude-code-best-practice)
 - [Claude prompt templates](https://github.com/repowise-dev/claude-code-prompts)
+- [Anthropic skills](https://github.com/anthropics/skills/)
 - [BMAD](https://github.com/bmad-code-org/BMAD-METHOD)
 - [claudectx](https://github.com/foxj77/claudectx)
 
