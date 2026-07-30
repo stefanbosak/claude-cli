@@ -39,6 +39,7 @@ RUN apt-get update \
     kmod \
     lsof \
     openssh-client \
+    pandoc \
     pigz \
     procps \
     psmisc \
