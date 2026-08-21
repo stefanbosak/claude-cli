@@ -97,10 +97,10 @@ RUN if getent group "${CONTAINER_GROUP_ID}" > /dev/null; then \
   # Note: DinD via QEMU on ARM64 not supported
   # (ARM64 requires ARM64 kernel from host, not available on AMD64 host)
   && curl -fsSL https://test.docker.com | sh; \
-  getent group docker >/dev/null 2>&1 || groupadd --system docker \
-  && if getent group docker > /dev/null 2>&1; then \
-       usermod -aG docker "${CONTAINER_USER}"; \
-     fi \
+  getent group docker >/dev/null 2>&1 || groupadd --system docker; \
+  if getent group docker > /dev/null 2>&1; then \
+   usermod -aG docker "${CONTAINER_USER}"; \
+  fi \
   && ln -s "${WORKSPACE_ROOT_DIR}/.local/bin/claude" "/usr/local/bin/claude"
 
 # Switch to non-root user
