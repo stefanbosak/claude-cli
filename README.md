@@ -17,9 +17,9 @@
 <!-- VERSION_INFO_START -->
 | Component | Version |
 |-----------|---------|
-| **Anthropic Claude Code CLI** | [`2.1.292`](https://github.com/anthropics/claude-code/releases/tag/v2.1.295) |
+| **Anthropic Claude Code CLI** | [`2.1.292`](https://github.com/anthropics/claude-code/releases/tag/v2.1.296) |
 
-> 🔄 Last updated: 2026-10-08T20:35:24Z · [Build #172](https://github.com/stefanbosak/claude-cli/actions/runs/37840302147)
+> 🔄 Last updated: 2026-10-09T20:33:52Z · [Build #173](https://github.com/stefanbosak/claude-cli/actions/runs/37987552360)
 <!-- VERSION_INFO_END -->
 
 ---
