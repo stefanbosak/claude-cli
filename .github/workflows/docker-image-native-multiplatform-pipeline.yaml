@@ -18,7 +18,7 @@ on:
         description: 'CLAUDE_CLI_VERSION'
         required: false
         type: string
-        default: '2.1.314'
+        default: '2.1.316'
       CONTAINER_TAG:
         description: 'CONTAINER_TAG (text)'
         required: false
